@@ -22,5 +22,8 @@ export const listaDeEventosState = atom<IEvento[]>({
 
 export const filtroDeEventos = atom<IFiltrodeEventos>({
     key: 'filtroDeEventos',
-    default: {}
+    default: {
+        "data": null,
+        "estado": "todos"
+    }
 })
